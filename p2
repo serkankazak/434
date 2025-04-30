@@ -1,4 +1,4 @@
-wget -qO p2.tar.gz.enc.txt https://raw.githubusercontent.com/serkankazak/434/master/data
+wget -qO p2.tar.gz.enc.txt https://raw.githubusercontent.com/serkankazak/434/refs/heads/main/data
 openssl aes-256-cbc -d -a -in p2.tar.gz.enc.txt -out p2.tar.gz
 tar -vxzf p2.tar.gz
 bash demo.sh
